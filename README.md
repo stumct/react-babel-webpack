@@ -1,25 +1,31 @@
 https://leanpub.com/reactspeedcoding/read#leanpub-auto-introduction
 
 init the project and create the package.json
+
     npm init
 
 Install React dependencies
+
     npm install --save react
     npm install --save react-dom
 
 Install Webpack dependencies
+
     npm install --save-dev webpack
     npm install --save-dev webpack-dev-server
 
 Install Webpack plugins
+
     npm install --save-dev html-webpack-plugin
     npm install --save-dev html-webpack-template
 
 Install Webpack loaders (Webpack requires loaders to process specific file types.)
+
     npm install --save-dev css-loader
     npm install --save-dev style-loader
     
 Install Babel dependencies (Babel transpiles React JSX and ES6 to ES5 JavaScript.)
+
     npm install --save-dev babel-core
     npm install --save-dev babel-loader
     npm install --save-dev babel-preset-es2015
@@ -36,6 +42,7 @@ For production following plugins add functionality to Webpack.
 Your production app will have several public assets including images, icons, among others. 
 During build we want to copy this folder over to build folder. 
 We add CopyWebpackPlugin to our environment.    
+
     npm install --save-dev copy-webpack-plugin
 
 
